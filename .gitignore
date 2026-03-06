@@ -1,0 +1,48 @@
+# DVC
+.dvc/config.local
+.dvc/tmp
+.dvc/cache
+
+# Data files (DVC tracked or potential large files)
+/data/*
+!/data/*.dvc
+!/data/.gitignore
+
+# Possible other data directories
+/raw_data/
+/processed_data/
+/datasets/
+/models/
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+.ros/log/
+
+# Python (Common in robotics)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
